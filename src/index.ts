@@ -1,12 +1,12 @@
 /* eslint-disable no-return-assign */
 
-// Source: https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true
-import simpleArraySum from './simpleArraySum'
+// Source: https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
+import gradingStudents from './gradingStudents';
 
 function main() {
   console.log('---------- Cool Programing ----------\n');
-  const testArray = [1, 2, 3, 4, 10, 11];
-  const result = simpleArraySum(testArray);
+  const testArray = [73, 67, 38, 33];
+  const result = gradingStudents(testArray);
   console.log('Result: ', result);
 }
 
